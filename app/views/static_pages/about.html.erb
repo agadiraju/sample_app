@@ -1,5 +1,15 @@
-<h1>About Us</h1>
-<p>The Ruby on Rails Tutorial
-   <a href="http://railstutorial.org/"> Ruby on rails tutorial </a>
-   is a project to help you ball out with Ruby	
-</p>
+<% provide(:title, 'About Us') %> 
+<html>
+  <head>
+    <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %> </title>
+  </head>
+  <body>
+    <h1>About Us</h1>
+    <p>The Ruby on Rails Tutorial
+      <a href="http://railstutorial.org/"> Ruby on rails tutorial </a>
+      is a project to help you ball out with Ruby	
+    </p>
+  </body>
+</html>
+
+

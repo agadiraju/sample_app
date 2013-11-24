@@ -39,8 +39,6 @@ describe "StaticPages" do
       visit '/static_pages/about'
       page.should have_selector('h1', :text => 'About Us')
     end
-
-
-
+  end
 
 end 
